@@ -1,0 +1,105 @@
+%%\chapter{\textsc{ Mise en Oeuvre d'un Moniteur pour le Problème des Philosophes }}
+\chapter{\textsc{Développement d'un programme JAVA avec des Sémaphores}}
+\section{\textsc{Code JAVA}}
+
+\subsection{\textsc{Code de la classe philosophe}}
+	\begin{lstlisting}
+		
+package philosopher;
+import java.util.concurrent.Semaphore;
+
+	public class philosopher  extends Thread {
+		private Semaphore baguetteD, baguetteG;
+		private int numb_ph;
+	
+		public philosopher (int numb,Semaphore Bag1,Semaphore Bag2 ){
+			this.numb_ph=numb;
+			this.baguetteD=Bag1;
+			this.baguetteG=Bag2;
+		}
+	
+	
+	public void Pense(){ //he thinks
+		System.out.println("Le philosophe "+this.numb_ph+" pense.");
+		try{
+			Thread.sleep(2000);
+		}
+		catch(InterruptedException ex){}
+	}
+
+	
+	public void Afaim(){ //he's hungry
+		System.out.println("Le philosophe "+this.numb_ph+" a faim");
+		try{
+			baguetteG.acquire();
+			baguetteD.acquire();
+		}
+		catch(InterruptedException excep){}
+	}
+	
+	
+	public void Mange(){ //he eats
+		System.out.println("Le philosophe "+this.numb_ph+" mange");
+		try{
+			Thread.sleep(1000);
+			baguetteG.release();
+			baguetteD.release();
+		}
+		catch(InterruptedException excep){}
+	}
+	
+	
+	public void run() {
+		while(true) {
+		Pense();
+		Afaim();
+		Mange();
+		}
+	}
+}
+
+	\end{lstlisting}
+
+
+\subsection{\textsc{Code du main}}
+
+	\begin{lstlisting}
+		
+package philosopher;
+import java.util.concurrent.Semaphore;
+
+public class main_Sem { 
+	public static void main (String[] args) {
+		// TODO Auto-generated method stub
+		Semaphore baguette[]=new Semaphore[5];
+		philosopher ph[]= new philosopher [5];
+		for(int i=0; i<5; i++) {
+			baguette[i]=new Semaphore(1);
+		}
+		for(int j=0; j<5; j++) {
+			ph[j] = new philosopher(j,baguette[j],baguette[(j+1)%5]);
+			System.out.println("Le philosophe "+j+" a rejoint la table." );
+			ph[j].start();
+		}
+	}
+}
+
+	\end{lstlisting}
+
+
+%%%%%%%%%%%%%%%
+
+\chapter{\textsc{Développement d'un programme JAVA avec un Moniteur}}
+\section{\textsc{Code JAVA}}
+
+\subsection{\textsc{Code de la classe philosophe}}
+
+
+
+\subsection{\textsc{Code du main}}
+
+
+\chapter*{\textsc{Conclusion}}
+\addcontentsline{toc}{chapter}{\textsc{Conclusion}}
+
+	\paragraph{}
