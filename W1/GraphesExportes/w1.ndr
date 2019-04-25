@@ -1,0 +1,95 @@
+t 81 -34 t1G c 0 w n {(CC4.BC4.P1;)} s
+t 257 -45 t2G c 0 w n {(CC3;)} s
+t 347 -42 t3G c 0 w n {(EC6;)} s
+t 450 -40 t4G c 0 w n {(EC7;)} s
+t 545 -41 t5G c 0 w n {(DC1;)} s
+t 640 -44 t6G c 0 w n {(EC7;)} s
+t 728 -47 t7G c 0 w n {(EC6;)} s
+t 795 -42 t8G c 0 w n {(EC5;)} s
+t 889 -42 t9G c 0 w n {(EC4;)} s
+t 977 -44 t10G c 0 w n {(BC4;)} s
+t 1085 -42 t11G c 0 w n {(BC5;)} s
+t 1177 15 t12G c 0 w n {(TD;)} s
+t 134 410 t13G c 0 w n {(BC4;)} s
+t 252 408 t14G c 0 w n {(EC4;)} s
+t 363 405 t15G c 0 w n {(EC5;)} s
+t 520 395 t17G c 0 w n {(CC2;)} s
+t 667 404 t18G c 0 w n {(CC1;)} s
+t 759 408 t19G c 0 w n {(CC2;)} s
+t 891 405 t20G c 0 w n {(CC3;)} s
+t 982 410 t21G c 0 w n {(CC4;)} s
+t 177 267 t22G c 0 w n {(TC;)} s
+p 6 -151 p1G 1 nw
+p 193 -148 p2G 0 nw {C3g} s
+p 300 -138 p3G 0 nw {C2g,C3g,AigCT,E4g} s
+p 394 -137 p4G 0 nw {E4g} s
+p 494 -136 p5G 0 nw {AigDT,E4g,D1g} s
+p 593 -139 p6G 0 nw {AigDT,E4d,D1d} s
+p 680 -143 p7G 0 nw {E4d} s
+p 769 -141 p8G 0 nw {E3d,C2d,AigCT,E4d} s
+p 844 -140 p9G 0 nw {E3d} s
+p 931 -140 p10G 0 nw {E3d,B4d,AigB2D,B5d} s
+p 1031 -138 p11G 0 nw {B5d} s
+p 1152 -148 p12G 0 nw
+p 35 258 p13G 0 nw {B5g} s
+p 172 349 p14G 0 nw {B5g,AigB2T,B4g,E3g} s
+p 309 319 p15G 0 nw {E3g} s
+p 421 314 p16G 0 nw {AigCD,E3g,C2g,E1g} s
+p 622 320 p18G 0 nw {C1g} s
+p 727 315 p19G 0 nw {C1d} s
+p 838 311 p20G 0 nw {C1d,C2d,AigCD} s
+p 930 320 p21G 0 nw {C3d} s
+p 546 104 p22G 1 nw
+p 992 254 p23G 0 nw
+e p1G t1G 1 n
+e p2G t2G 1 n
+e p22G t2G 1 n
+e p3G t3G 1 n
+e p4G t4G 1 n
+e p5G t5G 1 n
+e p6G t6G 1 n
+e p7G t7G 1 n
+e p22G t7G 1 n
+e p8G t8G 1 n
+e p9G t9G 1 n
+e p10G t10G 1 n
+e p11G t11G 1 n
+e p12G t12G 1 n
+e p13G t13G 1 n
+e p14G t14G 1 n
+e p22G t14G 1 n
+e p15G t15G 1 n
+e p16G t17G 1 n
+e p18G t18G 1 n
+e p19G t19G 1 n
+e p22G t19G 1 n
+e p20G t20G 1 n
+e p21G t21G 1 n
+e p23G t22G 1 n
+e t1G p2G 1 n
+e t1G p13G 1 n
+e t2G p3G 1 n
+e t3G p4G 1 n
+e t4G p5G 1 n
+e t4G p22G 1 n
+e t5G p6G 1 n
+e t6G p7G 1 n
+e t7G p8G 1 n
+e t8G p9G 1 n
+e t9G p10G 1 n
+e t9G p22G 1 n
+e t10G p11G 1 n
+e t11G p12G 1 n
+e t12G p13G 1 n
+e t13G p14G 1 n
+e t14G p15G 1 n
+e t15G p16G 1 n
+e t17G p18G 1 n
+e t17G p22G 1 n
+e t18G p19G 1 n
+e t19G p20G 1 n
+e t20G p21G 1 n
+e t20G p22G 1 n
+e t21G p23G 1 n
+e t22G p2G 1 n
+h w1

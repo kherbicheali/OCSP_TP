@@ -1,0 +1,69 @@
+toute ligne ne debutant pas par un caractere # est ignoree
+*******************************************************
+fichier de sauvegarde du fichier RdP : graphe_w1
+Date : jeudi 25 avril 2019 à 14:59:29
+********************************************************
+
+Peut être edite quand le graphe du RdP n'est pas ouvert dans SEDMA,
+Il est vivement deconseille de modifier ce fichier ! 
+
+#NAME graphe_w1
+#PROJECT w1
+#TYPEGRAPHE PetriNetwork
+
+debut de la description du RdP
+
+<#p> <int x> <int y> <nom> <ancre> {<attribut>} <ancre> <M0>  <couleur>
+
+#p 83 242 p1G nw {} s 0 #000000
+#p 163 242 p2G nw {} s 0 #000000
+#p 257 240 p3G nw {} s 0 #000000
+#p 351 241 p4G nw {} s 0 #000000
+#p 451 242 p5G nw {} s 0 #000000
+#p 550 239 p6G nw {} s 0 #000000
+#p 637 235 p7G nw {} s 0 #000000
+#p 726 237 p8G nw {} s 0 #000000
+#p 817 236 p9G nw {} s 0 #000000
+#p 904 236 p10G nw {} s 0 #000000
+#p 1004 238 p11G nw {} s 0 #000000
+#p 1105 237 p12G nw {} s 0 #000000
+
+<#t> <int x> <int y> <nom> <ancre> {<attribut>} <ancre>  <couleur>
+
+#t 132 336 t1G <NameLocation:tbd> {} s #000000
+#t 214 333 t2G <NameLocation:tbd> {} s #000000
+#t 304 336 t3G <NameLocation:tbd> {} s #000000
+#t 407 338 t4G <NameLocation:tbd> {} s #000000
+#t 502 337 t5G <NameLocation:tbd> {} s #000000
+#t 597 334 t6G <NameLocation:tbd> {} s #000000
+#t 685 331 t7G <NameLocation:tbd> {} s #000000
+#t 768 334 t8G <NameLocation:tbd> {} s #000000
+#t 862 334 t9G <NameLocation:tbd> {} s #000000
+#t 950 332 t10G <NameLocation:tbd> {} s #000000
+#t 1058 334 t11G <NameLocation:tbd> {} s #000000
+
+<#a> <src> <dst> <poids> <ancre>  <couleur> <isLooped>
+
+#a p1G t1G 1 <NameLocation:tbd> #000000 false
+#a p2G t2G 1 <NameLocation:tbd> #000000 false
+#a p3G t3G 1 <NameLocation:tbd> #000000 false
+#a p4G t4G 1 <NameLocation:tbd> #000000 false
+#a p5G t5G 1 <NameLocation:tbd> #000000 false
+#a p6G t6G 1 <NameLocation:tbd> #000000 false
+#a p7G t7G 1 <NameLocation:tbd> #000000 false
+#a p8G t8G 1 <NameLocation:tbd> #000000 false
+#a p9G t9G 1 <NameLocation:tbd> #000000 false
+#a p10G t10G 1 <NameLocation:tbd> #000000 false
+#a p11G t11G 1 <NameLocation:tbd> #000000 false
+#a t1G p2G 1 <NameLocation:tbd> #000000 false
+#a t2G p3G 1 <NameLocation:tbd> #000000 false
+#a t3G p4G 1 <NameLocation:tbd> #000000 false
+#a t4G p5G 1 <NameLocation:tbd> #000000 false
+#a t5G p6G 1 <NameLocation:tbd> #000000 false
+#a t6G p7G 1 <NameLocation:tbd> #000000 false
+#a t7G p8G 1 <NameLocation:tbd> #000000 false
+#a t8G p9G 1 <NameLocation:tbd> #000000 false
+#a t9G p10G 1 <NameLocation:tbd> #000000 false
+#a t10G p11G 1 <NameLocation:tbd> #000000 false
+#a t11G p12G 1 <NameLocation:tbd> #000000 false
+Fin du fichier de description du reseau de Petri

@@ -1,0 +1,19 @@
+toute ligne ne debutant pas par un caractere # est ignoree
+********************************************************************
+fichier de sauvegarde du projet : w1
+Date :jeudi 25 avril 2019 à 14:59:29
+********************************************************************
+
+Peut etre edite quand le projet n'est pas ouvert dans SEDMA,
+Il est vivement deconseille de modifier ce fichier ! 
+
+#MAQUETTE Aucune
+#NIVEAUVERIFES Stricte
+#NAME w1
+#TYPE PetriNetwork
+#ENTREES  BC2  BC1  BC4  DC2  BC3  DC1  DC4  BC5  DC3  TC3  TD3  AC1  AC2  CC1  AC3  AC4  CC3  EC1  CC2  EC0  EC3  CC4  EC2  EC5  EC4  EC7  EC6  P1  P2  TC  TD 
+#SORTIES  AigCD  AigA2T  B5d  A3d  B5g  AigB1D  A3g  B1d  C3d  AigCT  C3g  D1d  E3d  B1g  E3g  AigDD  D1g  AigA1T  AigDT  B2d  E4d  AigA2D  B2g  D2d  D2g  E4g  AigB2T  B3d  A1d  D3d  B3g  A1g  C1d  AigA1D  C1g  D3g  E1d  E1g  AigB1T  B4d  A2d  C2d  B4g  A2g  E2d  AigB2D  C2g  E2g 
+#Procedes graphe_w1  w1 
+#Objectifs  
+#Commandes  
+Fin du fichier de description du projet

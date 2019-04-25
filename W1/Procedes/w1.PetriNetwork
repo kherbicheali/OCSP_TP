@@ -1,0 +1,170 @@
+toute ligne ne debutant pas par un caractere # est ignoree
+*******************************************************
+fichier de sauvegarde du fichier RdP : w1
+Date : jeudi 25 avril 2019 à 14:59:29
+********************************************************
+
+Peut être edite quand le graphe du RdP n'est pas ouvert dans SEDMA,
+Il est vivement deconseille de modifier ce fichier ! 
+
+#NAME w1
+#PROJECT w1
+#TYPEGRAPHE PetriNetwork
+
+debut de la description du RdP
+
+<#p> <int x> <int y> <nom> <ancre> {<attribut>} <ancre> <M0>  <couleur>
+
+#p 471 77 p1G nw {} s 1 #000000
+#p 658 80 p2G w {C3g} nw 0 #000000
+#p 765 90 p3G w {C2g,C3g,AigCT,E4g} nw 0 #000000
+#p 859 91 p4G w {E4g} e 0 #000000
+#p 959 92 p5G w {AigDT,E4g,D1g} nw 0 #000000
+#p 1058 89 p6G w {AigDT,E4d,D1d} nw 0 #000000
+#p 1145 85 p7G w {E4d} ne 0 #000000
+#p 1234 87 p8G w {E3d,C2d,AigCT,E4d} nw 0 #000000
+#p 1309 88 p9G w {E3d} ne 0 #000000
+#p 1396 88 p10G w {E3d,B4d,AigB2D,B5d} nw 0 #000000
+#p 1496 90 p11G w {B5d} e 0 #000000
+#p 1635 93 p12G sw {} s 0 #000000
+#p 500 486 p13G w {B5g} ne 0 #FF0000
+#p 637 577 p14G w {B5g,AigB2T,B4g,E3g} nw 0 #FF0000
+#p 774 547 p15G w {E3g} n 0 #FF0000
+#p 886 542 p16G w {AigCD,E3g,C2g,E1g} nw 0 #FF0000
+#p 1087 548 p18G w {C1g} n 0 #FF0000
+#p 1192 543 p19G w {C1d} n 0 #FF0000
+#p 1303 539 p20G w {C1d,C2d,AigCD} nw 0 #FF0000
+#p 1395 548 p21G w {C3d} n 0 #FF0000
+#p 1011 332 p22G nw {} s 1 #0000FF
+#p 1457 482 p23G nw {} s 0 #FF0000
+#p 377 793 p17G nw {B1d} n 0 #404040
+#p 549 950 p24G w {B3d,B2d,AigB1D,B1d} nw 0 #404040
+#p 679 949 p25G w {B5d,B4g,AigB2D,B3d} n 0 #404040
+#p 796 946 p26G w {B5d} ne 0 #404040
+#p 912 951 p27G w {} s 0 #404040
+#p 1037 951 p28G w {B5g} ne 0 #404040
+#p 1154 946 p29G w {B5g,B4g,AigB2D,B3g} nw 0 #404040
+#p 1264 944 p30G w {B3g,B2g,AigB1D,B1g} n 0 #404040
+#p 1364 945 p31G w {B1g} ne 0 #404040
+#p 1474 935 p32G nw {} s 0 #404040
+#p 1600 926 p33G nw {} s 1 #404040
+#p 1639 598 p34G n {} s 0 #000000
+#p 973 763 p35G nw {} s 1 #0000FF
+
+<#t> <int x> <int y> <nom> <ancre> {<attribut>} <ancre>  <couleur>
+
+#t 546 194 t1G <NameLocation:tbd> {(CC4.BC4.P1;)} s #000000
+#t 722 183 t2G <NameLocation:tbd> {(CC3;)} s #000000
+#t 812 186 t3G <NameLocation:tbd> {(EC6;)} s #000000
+#t 915 188 t4G <NameLocation:tbd> {(EC7;)} s #000000
+#t 1010 187 t5G <NameLocation:tbd> {(DC1;)} s #000000
+#t 1105 184 t6G <NameLocation:tbd> {(EC7;)} s #000000
+#t 1193 181 t7G <NameLocation:tbd> {(EC6;)} s #000000
+#t 1260 186 t8G <NameLocation:tbd> {(EC5;)} s #000000
+#t 1354 186 t9G <NameLocation:tbd> {(EC4;)} s #000000
+#t 1442 184 t10G <NameLocation:tbd> {(BC4;)} s #000000
+#t 1550 186 t11G <NameLocation:tbd> {(BC5;)} s #000000
+#t 1632 370 t12G <NameLocation:tbd> {(TD;)} s #000000
+#t 599 638 t13G <NameLocation:tbd> {(BC4;)} s #FF0000
+#t 717 636 t14G <NameLocation:tbd> {(EC4;)} s #FF0000
+#t 828 633 t15G <NameLocation:tbd> {(EC5;)} s #FF0000
+#t 985 623 t17G <NameLocation:tbd> {(CC2;)} s #FF0000
+#t 1132 632 t18G <NameLocation:tbd> {(CC1;)} s #FF0000
+#t 1224 636 t19G <NameLocation:tbd> {(CC2;)} s #FF0000
+#t 1356 633 t20G <NameLocation:tbd> {(CC3;)} s #FF0000
+#t 1447 638 t21G <NameLocation:tbd> {(CC4;)} s #FF0000
+#t 642 495 t22G <NameLocation:tbd> {(TC;)} s #FF0000
+#t 377 947 t16G <NameLocation:tbd> {(BC2;)} s #404040
+#t 596 1021 t23G <NameLocation:tbd> {(BC3;)} s #404040
+#t 738 1011 t24G <NameLocation:tbd> {(BC4;)} s #404040
+#t 844 1010 t25G <NameLocation:tbd> {(BC5;)} s #404040
+#t 978 1010 t26G <NameLocation:tbd> {(TC3;)} s #404040
+#t 1097 1016 t27G <NameLocation:tbd> {(BC4;)} s #404040
+#t 1209 1014 t28G <NameLocation:tbd> {(BC3;)} s #404040
+#t 1319 1008 t29G <NameLocation:tbd> {(BC2;)} s #404040
+#t 1429 1010 t30G <NameLocation:tbd> {(BC1;)} s #404040
+#t 1525 1021 t31G <NameLocation:tbd> {(TD3;)} s #404040
+#t 1646 787 t32G <NameLocation:tbd> {} s #404040
+
+<#a> <src> <dst> <poids> <ancre>  <couleur> <isLooped>
+
+#a p1G t1G 1 <NameLocation:tbd> #000000 false
+#a p2G t2G 1 <NameLocation:tbd> #000000 false
+#a p22G t2G 1 <NameLocation:tbd> #0000FF false
+#a p3G t3G 1 <NameLocation:tbd> #000000 false
+#a p4G t4G 1 <NameLocation:tbd> #000000 false
+#a p5G t5G 1 <NameLocation:tbd> #000000 false
+#a p6G t6G 1 <NameLocation:tbd> #000000 false
+#a p7G t7G 1 <NameLocation:tbd> #000000 false
+#a p22G t7G 1 <NameLocation:tbd> #0000FF false
+#a p8G t8G 1 <NameLocation:tbd> #000000 false
+#a p9G t9G 1 <NameLocation:tbd> #000000 false
+#a p35G t9G 1 <NameLocation:tbd> #0000FF false
+#a p10G t10G 1 <NameLocation:tbd> #000000 false
+#a p11G t11G 1 <NameLocation:tbd> #000000 false
+#a p12G t12G 1 <NameLocation:tbd> #000000 false
+#a p13G t13G 1 <NameLocation:tbd> #FF0000 false
+#a p14G t14G 1 <NameLocation:tbd> #FF0000 false
+#a p22G t14G 1 <NameLocation:tbd> #0000FF false
+#a p15G t15G 1 <NameLocation:tbd> #FF0000 false
+#a p16G t17G 1 <NameLocation:tbd> #FF0000 false
+#a p18G t18G 1 <NameLocation:tbd> #FF0000 false
+#a p19G t19G 1 <NameLocation:tbd> #FF0000 false
+#a p22G t19G 1 <NameLocation:tbd> #0000FF false
+#a p20G t20G 1 <NameLocation:tbd> #FF0000 false
+#a p21G t21G 1 <NameLocation:tbd> #FF0000 false
+#a p23G t22G 1 <NameLocation:tbd> #FF0000 false
+#a p17G t16G 1 <NameLocation:tbd> #404040 false
+#a p35G t16G 1 <NameLocation:tbd> #0000FF false
+#a p24G t23G 1 <NameLocation:tbd> #404040 false
+#a p25G t24G 1 <NameLocation:tbd> #404040 false
+#a p26G t25G 1 <NameLocation:tbd> #404040 false
+#a p27G t26G 1 <NameLocation:tbd> #404040 false
+#a p28G t27G 1 <NameLocation:tbd> #404040 false
+#a p29G t28G 1 <NameLocation:tbd> #404040 false
+#a p30G t29G 1 <NameLocation:tbd> #404040 false
+#a p31G t30G 1 <NameLocation:tbd> #404040 false
+#a p32G t31G 1 <NameLocation:tbd> #404040 false
+#a p34G t32G 1 <NameLocation:tbd> #000000 false
+#a p33G t32G 1 <NameLocation:tbd> #404040 false
+#a t1G p2G 1 <NameLocation:tbd> #000000 false
+#a t1G p13G 1 <NameLocation:tbd> #FF0000 false
+#a t2G p3G 1 <NameLocation:tbd> #000000 false
+#a t3G p4G 1 <NameLocation:tbd> #000000 false
+#a t4G p5G 1 <NameLocation:tbd> #000000 false
+#a t4G p22G 1 <NameLocation:tbd> #0000FF false
+#a t5G p6G 1 <NameLocation:tbd> #000000 false
+#a t6G p7G 1 <NameLocation:tbd> #000000 false
+#a t7G p8G 1 <NameLocation:tbd> #000000 false
+#a t8G p9G 1 <NameLocation:tbd> #000000 false
+#a t9G p10G 1 <NameLocation:tbd> #000000 false
+#a t9G p22G 1 <NameLocation:tbd> #0000FF false
+#a t10G p11G 1 <NameLocation:tbd> #000000 false
+#a t11G p12G 1 <NameLocation:tbd> #000000 false
+#a t12G p13G 1 <NameLocation:tbd> #000000 false
+#a t12G p34G 1 <NameLocation:tbd> #000000 false
+#a t13G p14G 1 <NameLocation:tbd> #FF0000 false
+#a t14G p15G 1 <NameLocation:tbd> #FF0000 false
+#a t14G p35G 1 <NameLocation:tbd> #0000FF false
+#a t15G p16G 1 <NameLocation:tbd> #FF0000 false
+#a t17G p18G 1 <NameLocation:tbd> #FF0000 false
+#a t17G p22G 1 <NameLocation:tbd> #0000FF false
+#a t18G p19G 1 <NameLocation:tbd> #FF0000 false
+#a t19G p20G 1 <NameLocation:tbd> #FF0000 false
+#a t20G p21G 1 <NameLocation:tbd> #FF0000 false
+#a t20G p22G 1 <NameLocation:tbd> #0000FF false
+#a t21G p23G 1 <NameLocation:tbd> #FF0000 false
+#a t22G p2G 1 <NameLocation:tbd> #FF0000 false
+#a t16G p24G 1 <NameLocation:tbd> #404040 false
+#a t23G p25G 1 <NameLocation:tbd> #404040 false
+#a t24G p26G 1 <NameLocation:tbd> #404040 false
+#a t25G p27G 1 <NameLocation:tbd> #404040 false
+#a t26G p28G 1 <NameLocation:tbd> #404040 false
+#a t27G p29G 1 <NameLocation:tbd> #404040 false
+#a t28G p30G 1 <NameLocation:tbd> #404040 false
+#a t28G p35G 1 <NameLocation:tbd> #0000FF false
+#a t29G p31G 1 <NameLocation:tbd> #404040 false
+#a t30G p32G 1 <NameLocation:tbd> #404040 false
+#a t31G p33G 1 <NameLocation:tbd> #404040 false
+#a t32G p17G 5 <NameLocation:tbd> #404040 false
+Fin du fichier de description du reseau de Petri
